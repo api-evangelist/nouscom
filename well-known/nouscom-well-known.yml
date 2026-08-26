@@ -1,0 +1,50 @@
+generated: '2026-08-26'
+method: probed
+source: >-
+  Direct HTTPS probes of https://nouscom.com/.well-known/* on 2026-08-26 with a browser
+  User-Agent. No document was returned: the origin (SiteGround) answers every path,
+  including paths that do not exist, with an HTTP 202 "Robot Challenge Screen"
+  interstitial, so presence and absence are indistinguishable on this host. No pointer of
+  type WellKnown, APICatalog or SecurityTxt is emitted, because nothing was served.
+note: >-
+  All fifteen probes returned the identical 169-195 byte HTML challenge shell
+  (`<meta http-equiv="refresh" content="0;/.well-known/sgcaptcha/?r=...">`), not a
+  document. Per the pipeline contract a 200/202 returning an HTML shell is NOT a
+  document, and a bot challenge is not evidence that the provider does or does not serve
+  the path. Nouscom AG is a clinical-stage biotechnology company with no API host
+  (api., dev., developer., docs., portal., app., data. and status..nouscom.com all fail
+  to resolve), so no other host exists to probe.
+hosts:
+- host: nouscom.com
+  challenge: siteground-sgcaptcha
+  documents:
+  - path: /.well-known/security.txt
+    status: 202
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 202
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 202
+    file: null
+  - path: /.well-known/api-catalog
+    status: 202
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 202
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 202
+    file: null
+  - path: /.well-known/agent.json
+    status: 202
+    file: null
+unresolved_hosts:
+- api.nouscom.com
+- dev.nouscom.com
+- developer.nouscom.com
+- docs.nouscom.com
+- portal.nouscom.com
+- app.nouscom.com
+- data.nouscom.com
+- status.nouscom.com

@@ -64,5 +64,10 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Nouscom is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Nouscom AG is a private, clinical-stage immuno-oncology company developing neoantigen-targeted cancer immunotherapies from a proprietary viral vector platform, founded in 2015 and headquartered in Basel, Switzerland with research and manufacturing in Rome, Italy. Its lead program NOUS-209 targets 209 shared frameshift neoantigens for cancer interception in Lynch Syndrome and for dMMR/MSI metastatic colorectal cancer; NOUS-PEV is a personalized immunotherapy for advanced solid tumors.
+
+Nouscom is a therapeutics developer, not a software vendor. It publishes no public API, developer portal, SDK or machine-readable API contract, and this profile is identity-only.
+
+- https://nouscom.com/
+- https://github.com/Nouscom
+- https://www.linkedin.com/company/nouscom-ag/

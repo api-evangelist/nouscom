@@ -1,0 +1,69 @@
+# Nouscom
+
+> Nouscom AG is a private, clinical-stage immuno-oncology company developing neoantigen-targeted
+> cancer immunotherapies from a proprietary viral vector platform. Headquartered in Basel,
+> Switzerland with research and manufacturing in Rome, Italy. Nouscom is a therapeutics developer,
+> not a software vendor.
+
+generated: 2026-08-26
+method: generated
+source: apis.yml + repo artifacts (API Evangelist enrichment pipeline). Provider serves no
+llms.txt of its own — https://nouscom.com/llms.txt returns an HTTP 202 bot-challenge shell.
+
+## There is no API
+
+Nouscom publishes **no public API, developer portal, SDK, webhook surface or machine-readable API
+contract**. If you are an agent looking for a Nouscom endpoint to call, there is not one. Probed
+2026-08-26:
+
+- No API host exists. `api.`, `dev.`, `developer.`, `docs.`, `portal.`, `app.`, `data.` and
+  `status.nouscom.com` do not resolve.
+- No OpenAPI, Swagger, GraphQL or AsyncAPI contract is published on any Nouscom host.
+- No MCP server and no A2A agent card.
+- The corporate site `nouscom.com` is a WordPress marketing and investor-relations site sitting
+  behind a SiteGround bot challenge; every path answers HTTP 202 with a challenge shell.
+
+## Company
+
+- Founded: 2015, by Riccardo Cortese and Alfredo Nicosia
+- Headquarters: Basel, Switzerland; research and manufacturing: Rome, Italy
+- Sector: biotechnology / immuno-oncology / cancer immunotherapy
+- Financing: oversubscribed EUR 67.5 million Series C, November 2023, co-led by Andera Partners,
+  Bpifrance (InnoBio 2) and M Ventures, with 5AM Ventures, EQT Life Sciences, Versant Ventures,
+  Angelini Ventures, Panakès Partners, Indaco Venture Partners, Revelation Partners and XGen
+  Ventures participating.
+
+## Programs
+
+- **NOUS-209** — off-the-shelf viral-vectored immunotherapy encoding 209 shared frameshift
+  neoantigens, in development for cancer interception in Lynch Syndrome carriers and, in
+  combination with pembrolizumab, for dMMR/MSI metastatic colorectal cancer. Holds US FDA Fast
+  Track Designation; Phase 1b/2 Lynch Syndrome results published in Nature Medicine.
+- **NOUS-PEV** — personalized neoantigen immunotherapy for advanced solid tumors.
+
+## Links
+
+- Website: https://nouscom.com/
+- Pipeline: https://nouscom.com/pipeline/
+- About / team: https://nouscom.com/about/
+- LinkedIn: https://www.linkedin.com/company/nouscom-ag/
+- GitHub organization: https://github.com/Nouscom
+
+## Public code
+
+Nouscom's GitHub organization holds one public repository, and it is research code rather than an
+API client or server:
+
+- https://github.com/Nouscom/NOUS209LS-CRC-UC — R analysis scripts accompanying the NOUS-209
+  Lynch Syndrome colorectal and urothelial cancer study.
+
+## Disambiguation
+
+Do not confuse Nouscom AG (nouscom.com, biotech) with:
+
+- **noûscom** (nouscom.ch) — an unrelated Swiss company on a different origin.
+- **Nous Research** (nousresearch.com) — an AI lab that does publish an inference API.
+- **Nous AI** (nousai.com) — an unrelated company that publishes developer documentation.
+
+These are distinct organizations. A search for "Nouscom API" returns results for the two Nous
+companies; none of them belong to Nouscom AG.
